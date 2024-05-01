@@ -11,5 +11,5 @@ export default defineConfig({
   server: {
     host: true,
   },
-  base: '/spa-app/',
+  base: '/live-coding/spa-app/',
 });
