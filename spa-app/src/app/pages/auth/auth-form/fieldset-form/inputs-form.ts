@@ -15,7 +15,7 @@ export default class InputsForm {
         placeholder: 'Login',
       }),
       new Input({
-        type: 'input',
+        type: 'password',
         className: 'fieldset-input--password input',
         placeholder: 'password',
       }),
