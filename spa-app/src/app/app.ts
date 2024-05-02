@@ -1,20 +1,16 @@
-import BaseComponent from './components/base-component';
+import Pages from './pages/pages';
 
 export default class App {
   private body: HTMLElement;
 
-  private greetingWord: BaseComponent;
+  private pages: Pages;
 
   constructor() {
     this.body = document.body;
-    this.greetingWord = new BaseComponent({
-      tag: 'h1',
-      className: 'greeting',
-      text: 'Hello world',
-    });
+    this.pages = new Pages();
   }
 
   public start() {
-    this.body.append(this.greetingWord.getNode());
+    this.body.append(this.pages.getNode());
   }
 }

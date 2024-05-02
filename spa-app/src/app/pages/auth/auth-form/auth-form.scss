@@ -1,0 +1,17 @@
+.auth-form {
+  width: 350px;
+
+  .auth-fieldset--inputs {
+    display: flex;
+    flex-direction: column;
+
+    .input {
+      margin: 5px;
+    }
+  }
+
+  .btn {
+    margin: 5px;
+    width: 97%;
+  }
+}
