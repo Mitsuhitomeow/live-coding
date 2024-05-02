@@ -1,6 +1,4 @@
 import BaseComponent from '../../../../components/base-component';
-import Button from '../../../../components/button/button';
-import Validation from '../../../../services/form-validation.service';
 import InputsForm from './inputs-form';
 
 export default class Fieldset {
@@ -10,7 +8,9 @@ export default class Fieldset {
 
   constructor() {
     this.inputs = new InputsForm();
+
     const InputsComponent = this.inputs.getComponent();
+
     this.fieldset = new BaseComponent(
       {
         tag: 'fieldset',
@@ -22,24 +22,7 @@ export default class Fieldset {
         text: 'Authorization',
       }),
       InputsComponent,
-      new Button({
-        className: 'fieldset-button btn',
-        text: 'Log In',
-        callback: () => this.initValidation(),
-      }),
     );
-  }
-
-  private initValidation() {
-    const logValue = this.inputs.getLogValue() || '';
-    const passValue = this.inputs.getPassValue() || '';
-
-    const validation = new Validation({
-      log: logValue,
-      pass: passValue,
-    });
-
-    validation.getLogPass();
   }
 
   public getComponent() {

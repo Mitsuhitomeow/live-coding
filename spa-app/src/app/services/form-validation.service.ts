@@ -14,6 +14,10 @@ export default class Validation {
   }
 
   public getLogPass() {
-    console.log(this.log, this.pass);
+    if (this.log.trim() === '' || this.pass.trim() === '') {
+      console.log('error');
+    } else {
+      console.log(this.log, this.pass);
+    }
   }
 }

@@ -5,10 +5,11 @@ interface IInput {
   className: string;
   placeholder: string;
   required?: boolean;
+  onInput?: (e: Event) => void;
 }
 
 export default class Input extends BaseComponent {
-  constructor({ type, className, placeholder, required }: IInput) {
+  constructor({ type, className, placeholder, required, onInput }: IInput) {
     super({ tag: 'input', className });
 
     this.addAttribute('type', type);
@@ -16,6 +17,10 @@ export default class Input extends BaseComponent {
 
     if (required !== null) {
       this.addAttribute('required', '');
+    }
+
+    if (onInput) {
+      this.addListener('input', (e) => onInput(e));
     }
   }
 
