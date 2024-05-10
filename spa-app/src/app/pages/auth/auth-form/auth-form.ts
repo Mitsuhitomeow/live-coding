@@ -13,6 +13,7 @@ export default class AuthForm {
 
     this.auth = new BaseComponent(
       {
+        tag: 'form',
         className: 'auth-form',
       },
       FieldsetFormComponent,
