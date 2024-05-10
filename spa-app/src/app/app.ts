@@ -10,7 +10,7 @@ export default class App {
     this.pages = new Pages();
   }
 
-  public start() {
+  public start(): void {
     this.body.append(this.pages.getNode());
   }
 }

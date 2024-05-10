@@ -10,7 +10,7 @@ export default class Header {
     });
   }
 
-  public getNode() {
+  public getNode(): HTMLElement {
     return this.header.getNode();
   }
 }

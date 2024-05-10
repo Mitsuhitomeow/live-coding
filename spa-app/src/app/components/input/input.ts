@@ -24,7 +24,7 @@ export default class Input extends BaseComponent {
     }
   }
 
-  public getValue() {
+  public getValue(): string | null {
     const node = this.getNode() as HTMLInputElement;
     if (node) {
       const element = node;

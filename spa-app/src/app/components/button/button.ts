@@ -23,11 +23,11 @@ export default class Button extends BaseComponent {
     }
   }
 
-  public disable() {
+  public disable(): void {
     this.addAttribute('disabled', 'true');
   }
 
-  public enable() {
+  public enable(): void {
     this.deleteAttribute('disabled');
   }
 }

@@ -19,7 +19,7 @@ export default class Authorization {
     );
   }
 
-  public getComponent() {
+  public getComponent(): BaseComponent {
     return this.auth;
   }
 }

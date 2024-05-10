@@ -17,7 +17,7 @@ export default class Pages {
     );
   }
 
-  public getNode() {
+  public getNode(): HTMLElement {
     return this.pages.getNode();
   }
 }

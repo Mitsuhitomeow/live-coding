@@ -3,6 +3,7 @@ module.exports = {
   env: {
     browser: true,
     es2021: true,
+    node: true,
   },
   parser: '@typescript-eslint/parser',
   parserOptions: {
@@ -33,11 +34,10 @@ module.exports = {
     },
   ],
   rules: {
+    'no-console': 'off',
     '@typescript-eslint/explicit-module-boundary-types': 'error',
     '@typescript-eslint/explicit-function-return-type': ['error', { allowExpressions: true }],
     '@typescript-eslint/no-explicit-any': 'error',
-  },
-  rules: {
     quotes: ['error', 'single'],
     semi: ['error', 'always'],
     'prettier/prettier': [

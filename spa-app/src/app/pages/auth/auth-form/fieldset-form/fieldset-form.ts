@@ -25,7 +25,7 @@ export default class Fieldset {
     );
   }
 
-  public getComponent() {
+  public getComponent(): BaseComponent {
     return this.fieldset;
   }
 }

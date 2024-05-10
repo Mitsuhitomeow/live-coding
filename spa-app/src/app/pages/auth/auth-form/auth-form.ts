@@ -20,7 +20,7 @@ export default class AuthForm {
     );
   }
 
-  public getComponent() {
+  public getComponent(): BaseComponent {
     return this.auth;
   }
 }

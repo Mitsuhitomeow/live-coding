@@ -43,7 +43,7 @@ export default class InputsForm {
     this.checkInputValue();
   }
 
-  private initValidation() {
+  private initValidation(): void {
     const logValue = this.getLogValue() || '';
     const passValue = this.getPassValue() || '';
 
@@ -54,7 +54,7 @@ export default class InputsForm {
     validation.getLogPass();
   }
 
-  private checkInputValue() {
+  private checkInputValue(): void {
     const children = this.inputsForm.getChildren();
 
     children.forEach((child) => {
@@ -70,7 +70,7 @@ export default class InputsForm {
     });
   }
 
-  private isValueInInput() {
+  private isValueInInput(): void {
     if (this.getLogValue()?.trim() === '' || this.getPassValue()?.trim() === '') {
       this.button.disable();
     } else {
@@ -78,7 +78,7 @@ export default class InputsForm {
     }
   }
 
-  private checkInputChange(event: Event) {
+  private checkInputChange(event: Event): void {
     const inputElement = event.target as HTMLInputElement;
     const inputValue = inputElement.value;
 
@@ -87,15 +87,15 @@ export default class InputsForm {
     }
   }
 
-  public getLogValue() {
+  public getLogValue(): string | null {
     return this.logInput.getValue();
   }
 
-  public getPassValue() {
+  public getPassValue(): string | null {
     return this.passInput.getValue();
   }
 
-  public getComponent() {
+  public getComponent(): BaseComponent {
     return this.inputsForm;
   }
 }
