@@ -16,6 +16,7 @@ export default class Controller {
     this.appRoot = new BaseComponent({ className: 'app' });
     this.auth = new Authorization();
     this.pageContent = new PageContent();
+
     this.storage = new LocalStorage();
   }
 
@@ -31,8 +32,9 @@ export default class Controller {
   public renderPage(): void {
     if (!this.isUserOnline()) {
       this.appRoot.append(this.auth.getNode());
+    } else {
+      this.appRoot.append(this.pageContent.getNode());
     }
-    this.appRoot.append(this.pageContent.getNode());
   }
 
   public getNode(): HTMLElement {

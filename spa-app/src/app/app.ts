@@ -1,5 +1,4 @@
 import Controller from './controller';
-// import Pages from './pages/pages';
 
 export default class App {
   private body: HTMLElement;
