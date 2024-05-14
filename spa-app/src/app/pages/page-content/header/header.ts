@@ -7,10 +7,11 @@ export default class Header {
     this.header = new BaseComponent({
       tag: 'header',
       className: 'header',
+      text: 'header',
     });
   }
 
-  public getNode(): HTMLElement {
-    return this.header.getNode();
+  public getComponent(): BaseComponent {
+    return this.header;
   }
 }

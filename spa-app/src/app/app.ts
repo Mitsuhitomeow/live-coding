@@ -1,16 +1,17 @@
-import Pages from './pages/pages';
+import Controller from './controller';
+// import Pages from './pages/pages';
 
 export default class App {
   private body: HTMLElement;
 
-  private pages: Pages;
+  private controller: Controller;
 
   constructor() {
     this.body = document.body;
-    this.pages = new Pages();
+    this.controller = new Controller();
   }
 
   public start(): void {
-    this.body.append(this.pages.getNode());
+    this.body.append(this.controller.getNode());
   }
 }
