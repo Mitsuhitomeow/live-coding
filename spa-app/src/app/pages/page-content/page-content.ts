@@ -17,7 +17,7 @@ export default class PageContent {
     );
   }
 
-  public getNode(): HTMLElement {
-    return this.pageContent.getNode();
+  public getNode(): BaseComponent {
+    return this.pageContent;
   }
 }

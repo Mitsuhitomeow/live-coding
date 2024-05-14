@@ -19,7 +19,7 @@ export default class Authorization {
     );
   }
 
-  public getComponent(): HTMLElement {
-    return this.auth.getNode();
+  public getNode(): BaseComponent {
+    return this.auth;
   }
 }

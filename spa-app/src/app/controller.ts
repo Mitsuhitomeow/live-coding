@@ -3,15 +3,17 @@ import Authorization from './pages/auth/auth';
 import PageContent from './pages/page-content/page-content';
 import LocalStorage from './services/local-storage.service';
 
-export default class Controller extends BaseComponent {
+export default class Controller {
   private auth: Authorization;
 
   private pageContent: PageContent;
 
   private storage: LocalStorage;
 
+  private appRoot: BaseComponent;
+
   constructor() {
-    super({ tag: 'div', className: 'app' });
+    this.appRoot = new BaseComponent({ className: 'app' });
     this.auth = new Authorization();
     this.pageContent = new PageContent();
     this.storage = new LocalStorage();
@@ -26,10 +28,16 @@ export default class Controller extends BaseComponent {
     return this.storage.checkStorage();
   }
 
-  public getNode(): HTMLElement {
+  public renderPage(): void {
     if (!this.isUserOnline()) {
-      return this.auth.getComponent();
+      this.appRoot.append(this.auth.getNode());
     }
-    return this.pageContent.getNode();
+    this.appRoot.append(this.pageContent.getNode());
+  }
+
+  public getNode(): HTMLElement {
+    this.renderPage();
+
+    return this.appRoot.getNode();
   }
 }
