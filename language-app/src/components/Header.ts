@@ -1,7 +1,7 @@
 import BaseComponents from './base-components';
 import Batton from './common/batton/Batton';
 
-export default function Header() {
+export default function Header(): HTMLElement {
   const header = BaseComponents({
     tag: 'header',
     className: 'header',

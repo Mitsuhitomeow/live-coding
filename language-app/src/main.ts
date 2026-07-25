@@ -1,7 +1,7 @@
 import Header from './components/Header';
 import BaseComponents from './components/base-components';
 
-export default function Main() {
+export default function Main(): HTMLElement {
   const Main = BaseComponents({
     tag: 'main',
     className: 'main',

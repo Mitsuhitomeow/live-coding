@@ -5,18 +5,16 @@ type BaseComponentProps = {
   children?: HTMLElement[];
 };
 
-const BaseComponents = ({
+export default function BaseComponent({
   tag = 'div',
   className = '',
   text = '',
   ...children
-}: BaseComponentProps) => {
+}: BaseComponentProps): HTMLElement {
   const element = document.createElement(tag);
   element.className = className;
   element.textContent = text;
   element.append(...(children.children || []));
 
   return element;
-};
-
-export default BaseComponents;
+}
