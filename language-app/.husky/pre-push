@@ -1,0 +1,1 @@
+npm --prefix ./language-app run lint
