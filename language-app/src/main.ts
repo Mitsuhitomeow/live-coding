@@ -1,12 +1,9 @@
-import Header from './components/Header';
-import BaseComponents from './components/base-components';
+import App from './App';
 
-export default function Main(): HTMLElement {
-  const Main = BaseComponents({
-    tag: 'main',
-    className: 'main',
-    children: [Header()],
-  });
+const root = document.getElementById('app');
 
-  return Main;
+if (!root) {
+  throw new Error('Root element not found');
 }
+
+root.append(App());

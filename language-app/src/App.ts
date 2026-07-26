@@ -1,13 +1,11 @@
+import Header from './components/Header';
+import Footer from './components/Footer';
 import Home from './pages/Home/home';
 import BaseComponent from './components/base-components';
 
 export default function App(): HTMLElement {
-  const app = BaseComponent({
+  return BaseComponent({
     className: 'app',
-    children: [Home()],
+    children: [Header(), Home(), Footer()],
   });
-
-  return document.body.appendChild(app);
 }
-
-App();
