@@ -1,0 +1,29 @@
+[
+  {
+    "id": 1,
+    "latin": "zdravo",
+    "cyrillic": "здраво",
+    "translation": "привет",
+    "pronunciation": "здра́во",
+    "category": "greetings",
+    "level": "A1"
+  },
+  {
+    "id": 2,
+    "latin": "hvala",
+    "cyrillic": "хвала",
+    "translation": "спасибо",
+    "pronunciation": "хва́ла",
+    "category": "greetings",
+    "level": "A1"
+  },
+  {
+    "id": 3,
+    "latin": "molim",
+    "cyrillic": "молим",
+    "translation": "пожалуйста",
+    "pronunciation": "мо́лим",
+    "category": "greetings",
+    "level": "A1"
+  }
+]
