@@ -1,4 +1,4 @@
-import BaseComponent from '../../base-components.ts';
+import BaseComponent from '@/components';
 
 type ButtonProps = {
   tag?: keyof HTMLElementTagNameMap;

@@ -1,4 +1,4 @@
-import type { BaseComponentProps } from '../types/type.base-components';
+import type { BaseComponentProps } from '@/types/baseComponents.types';
 
 export default function BaseComponent({
   tag = 'div',

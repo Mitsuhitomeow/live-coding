@@ -1,4 +1,4 @@
-import BaseComponent from './base-components';
+import BaseComponent from '@/components';
 
 export default function Footer(): HTMLElement {
   return BaseComponent({

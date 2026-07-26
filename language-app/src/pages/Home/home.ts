@@ -1,5 +1,5 @@
-import BaseComponents from '../../components/base-components';
-import WorldsList from './words-list/words-list';
+import BaseComponents from '@/components/';
+import WorldsList from '@/pages/Home/words-list';
 
 export default function Home(): HTMLElement {
   return BaseComponents({

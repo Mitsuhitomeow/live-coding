@@ -1,6 +1,6 @@
-import BaseComponents from '../../../components/base-components';
-import { getWords } from '../../../services/words.services';
-import Card from '../word-cards/word-card';
+import BaseComponents from '@/components/';
+import { getWords } from '@/services/words.services';
+import Card from '@/pages/Home/word-cards';
 
 export default function WordsList(): HTMLElement {
   const cards = getWords().map(Card);

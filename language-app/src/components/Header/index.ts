@@ -1,5 +1,5 @@
-import BaseComponents from './base-components';
-import Batton from './common/batton/Batton';
+import BaseComponents from '@/components';
+import Batton from '@/components/common/Batton';
 
 export default function Header(): HTMLElement {
   const header = BaseComponents({
