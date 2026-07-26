@@ -1,17 +1,9 @@
 import BaseComponents from '../../../components/base-components';
-import { wordsSchema } from '../../../schemas/words.schema';
 import { getWords } from '../../../services/words.services';
+import Card from '../word-cards/word-card';
 
 export default function WordsList(): HTMLElement {
-  const words = wordsSchema.parse(getWords());
-
-  const cards = words.map((word) => {
-    return BaseComponents({
-      tag: 'div',
-      className: 'word-card',
-      text: word.cyrillic,
-    });
-  });
+  const cards = getWords().map(Card);
 
   return BaseComponents({
     tag: 'section',
