@@ -1,9 +1,4 @@
-type BaseComponentProps = {
-  tag?: keyof HTMLElementTagNameMap;
-  className?: string;
-  text?: string;
-  children?: HTMLElement[];
-};
+import type { BaseComponentProps } from '../types/type.base-components';
 
 export default function BaseComponent({
   tag = 'div',
