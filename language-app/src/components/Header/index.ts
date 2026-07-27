@@ -7,7 +7,11 @@ export default function Header(): HTMLElement {
     className: 'header',
     children: [
       BaseComponents({ tag: 'span', className: 'header__logo', text: `Logo` }),
-      BaseComponents({ tag: 'span', className: 'header__about', text: `About us` }),
+      BaseComponents({
+        tag: 'span',
+        className: 'header__about',
+        text: `About us`,
+      }),
       Batton({
         className: 'header__button',
         text: `click me`,
