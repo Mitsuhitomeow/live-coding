@@ -1,28 +1,29 @@
-import BaseComponents from '@/components';
-import Batton from '@/components/common/Batton';
+import BaseComponents from '@/components/BaseComponent';
+import Button from '@/components/common/Button';
+import Nav from './Nav';
+import Link from '../common/link';
 
 export default function Header(): HTMLElement {
   const header = BaseComponents({
     tag: 'header',
     className: 'header',
     children: [
-      BaseComponents({ tag: 'span', className: 'header__logo', text: `Logo` }),
-      BaseComponents({
-        tag: 'span',
-        className: 'header__about',
-        text: `About us`,
+      Link({
+        text: 'Logo',
+        path: '/',
       }),
-      Batton({
+      Nav(),
+      Button({
         className: 'header__button',
         text: `click me`,
         events: {
           click: () => {
-            const BODY = document.body;
+            const body = document.body;
 
-            if (BODY.style.backgroundColor === 'red') {
-              BODY.style.backgroundColor = 'white';
+            if (body.style.backgroundColor === 'red') {
+              body.style.backgroundColor = 'white';
             } else {
-              BODY.style.backgroundColor = 'red';
+              body.style.backgroundColor = 'red';
             }
           },
         },

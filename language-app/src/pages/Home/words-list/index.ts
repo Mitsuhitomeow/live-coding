@@ -1,4 +1,4 @@
-import BaseComponents from '@/components/';
+import BaseComponents from '@/components/BaseComponent';
 import { getWords } from '@/services/words.services';
 import Card from '@/pages/Home/word-cards';
 

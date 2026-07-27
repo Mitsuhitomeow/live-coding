@@ -9,4 +9,6 @@ if (!root) {
 
 root.append(App());
 
-render();
+window.addEventListener('popstate', () => {
+  render();
+});

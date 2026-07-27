@@ -1,4 +1,4 @@
-import BaseComponents from '@/components/';
+import BaseComponents from '@/components/BaseComponent';
 import WorldsList from '@/pages/Home/words-list';
 
 export default function Home(): HTMLElement {

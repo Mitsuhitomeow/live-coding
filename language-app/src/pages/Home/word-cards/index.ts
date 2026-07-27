@@ -1,4 +1,4 @@
-import BaseComponent from '@/components';
+import BaseComponent from '@/components/BaseComponent';
 import type { Word } from '@/types/word.types';
 
 export default function Card(props: Word): HTMLElement {

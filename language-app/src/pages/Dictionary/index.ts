@@ -1,4 +1,4 @@
-import BaseComponent from '@/components';
+import BaseComponent from '@/components/BaseComponent';
 
 export default function Dictionary(): HTMLElement {
   return BaseComponent({

@@ -1,4 +1,5 @@
-export type linkProps = {
+export type LinkProps = {
   text: string;
   path: string;
+  isRouterLink?: boolean;
 };
