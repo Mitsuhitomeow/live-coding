@@ -8,7 +8,7 @@ import NotFound from './pages/NotFound';
 
 export default function App(): HTMLElement {
   return BaseComponent({
-    className: 'app',
+    className: 'container',
     children: [
       Header(),
       Home(),

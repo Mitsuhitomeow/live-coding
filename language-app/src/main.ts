@@ -1,4 +1,5 @@
-import App from './App';
+import App from '@/App';
+import render from '@/router/render';
 
 const root = document.getElementById('app');
 
@@ -7,3 +8,5 @@ if (!root) {
 }
 
 root.append(App());
+
+render();

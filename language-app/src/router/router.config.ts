@@ -2,8 +2,8 @@ import Home from '@/pages/Home';
 import Training from '@/pages/Training';
 import Dictionary from '@/pages/Dictionary';
 import NotFound from '@/pages/NotFound';
-import type { Route } from './router.types';
-import { ROUTES } from './routes';
+import type { Route } from '@/router/router.types';
+import { ROUTES } from '@/router/router.constants';
 
 export const router: Route[] = [
   {

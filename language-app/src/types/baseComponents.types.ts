@@ -3,4 +3,5 @@ export type BaseComponentProps = {
   className?: string;
   text?: string;
   children?: HTMLElement[];
+  attributes?: Record<string, string>;
 };
