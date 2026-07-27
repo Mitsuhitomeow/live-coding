@@ -11,6 +11,7 @@ export default function Header(): HTMLElement {
       Link({
         text: 'Logo',
         path: '/',
+        isRouterLink: true,
       }),
       Nav(),
       Button({
