@@ -11,12 +11,14 @@
     "lint:fix": "eslint --fix ./src",
     "format": "prettier --write .",
     "ci:format": "prettier --check .",
-    "prepare": "cd .. && husky language-app/.husky"
+    "prepare": "cd .. && husky language-app/.husky",
+    "deploy": "npm run build && npx gh-pages -d dist -e language-app"
   },
   "devDependencies": {
     "@eslint/js": "^10.0.1",
     "@types/node": "^26.1.1",
     "eslint": "^10.8.0",
+    "gh-pages": "^6.3.0",
     "globals": "^17.7.0",
     "husky": "^9.1.7",
     "prettier": "3.9.6",
