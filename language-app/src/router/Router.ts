@@ -1,6 +1,6 @@
 import { router } from '@/router/router.config';
 import NotFound from '@/pages/NotFound';
-import type { Route } from './router.types';
+import type { Route } from '../types/router.types';
 
 export default function Router(): HTMLElement {
   const path = window.location.pathname;

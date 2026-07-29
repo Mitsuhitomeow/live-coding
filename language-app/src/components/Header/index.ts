@@ -2,6 +2,7 @@ import BaseComponents from '@/components/BaseComponent';
 import Button from '@/components/common/Button';
 import Nav from './Nav';
 import Link from '../common/link';
+import { ROUTES } from '@/constants/router.constants';
 
 export default function Header(): HTMLElement {
   const header = BaseComponents({
@@ -10,7 +11,7 @@ export default function Header(): HTMLElement {
     children: [
       Link({
         text: 'Logo',
-        path: '/',
+        path: ROUTES.HOME,
         isRouterLink: true,
       }),
       Nav(),

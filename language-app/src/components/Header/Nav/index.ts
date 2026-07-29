@@ -1,5 +1,6 @@
 import BaseComponent from '@/components/BaseComponent';
 import Link from '@/components/common/link';
+import { ROUTES } from '@/constants/router.constants';
 
 export default function Nav(): HTMLElement {
   return BaseComponent({
@@ -8,17 +9,17 @@ export default function Nav(): HTMLElement {
     children: [
       Link({
         text: 'Training',
-        path: '/training',
+        path: ROUTES.TRAINING,
         isRouterLink: true,
       }),
       Link({
         text: 'Dictionary',
-        path: '/dictionary',
+        path: ROUTES.DICTIONARY,
         isRouterLink: true,
       }),
       Link({
         text: 'Home',
-        path: '/',
+        path: ROUTES.HOME,
         isRouterLink: true,
       }),
     ],
