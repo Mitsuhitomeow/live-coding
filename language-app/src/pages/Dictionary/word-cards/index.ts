@@ -3,8 +3,8 @@ import type { Word } from '@/types/word.types';
 
 export default function Card(props: Word): HTMLElement {
   return BaseComponent({
-    tag: 'article',
-    className: 'card',
-    text: props.cyrillic,
+    tag: 'span',
+    className: `word word-${props.id}`,
+    text: `${props.cyrillic} - ${props.translation}`,
   });
 }

@@ -8,6 +8,11 @@ export default function Nav(): HTMLElement {
     className: 'header-navigation',
     children: [
       Link({
+        text: 'Home',
+        path: ROUTES.HOME,
+        isRouterLink: true,
+      }),
+      Link({
         text: 'Training',
         path: ROUTES.TRAINING,
         isRouterLink: true,
@@ -15,11 +20,6 @@ export default function Nav(): HTMLElement {
       Link({
         text: 'Dictionary',
         path: ROUTES.DICTIONARY,
-        isRouterLink: true,
-      }),
-      Link({
-        text: 'Home',
-        path: ROUTES.HOME,
         isRouterLink: true,
       }),
     ],

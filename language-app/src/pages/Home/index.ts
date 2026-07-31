@@ -1,13 +1,15 @@
 import BaseComponents from '@/components/BaseComponent';
-import WorldsList from '@/pages/Home/words-list';
 
 export default function Home(): HTMLElement {
   return BaseComponents({
     tag: 'main',
-    className: 'home',
-    children: [WorldsList()],
-    attributes: {
-      id: 'outlet',
-    },
+    className: 'main',
+    children: [
+      BaseComponents({
+        tag: 'h3',
+        className: 'main-title',
+        text: 'Home',
+      }),
+    ],
   });
 }
