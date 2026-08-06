@@ -1,0 +1,15 @@
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+
+  .footerText {
+    display: flex;
+    justify-content: center;
+
+    span {
+      text-align: center;
+    }
+  }
+}
