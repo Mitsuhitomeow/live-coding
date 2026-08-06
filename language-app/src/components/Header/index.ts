@@ -3,11 +3,12 @@ import Button from '@/components/common/Button';
 import Nav from './Nav';
 import Link from '../common/link';
 import { ROUTES } from '@/constants/router.constants';
+import styles from './header.module.scss';
 
 export default function Header(): HTMLElement {
   const header = BaseComponents({
     tag: 'header',
-    className: 'header',
+    className: styles.header,
     children: [
       Link({
         text: 'Logo',
@@ -16,7 +17,7 @@ export default function Header(): HTMLElement {
       }),
       Nav(),
       Button({
-        className: 'header__button',
+        className: styles.headerButton,
         text: `click me`,
         events: {
           click: () => {
