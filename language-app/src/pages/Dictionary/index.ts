@@ -3,8 +3,7 @@ import WordsList from '@/pages/Dictionary/words-list';
 
 export default function Dictionary(): HTMLElement {
   return BaseComponent({
-    tag: 'main',
-    className: 'main',
+    className: 'main-dictionary',
     children: [
       BaseComponent({
         tag: 'h3',

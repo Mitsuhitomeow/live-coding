@@ -2,8 +2,7 @@ import BaseComponent from '@/components/BaseComponent';
 
 export default function NotFound(): HTMLElement {
   return BaseComponent({
-    tag: 'main',
-    className: 'not-found',
+    className: 'main-container',
     children: [
       BaseComponent({
         tag: 'h3',

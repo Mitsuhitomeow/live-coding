@@ -2,8 +2,7 @@ import BaseComponents from '@/components/BaseComponent';
 
 export default function Home(): HTMLElement {
   return BaseComponents({
-    tag: 'main',
-    className: 'main',
+    className: 'main-container',
     children: [
       BaseComponents({
         tag: 'h3',

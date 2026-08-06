@@ -8,6 +8,7 @@ export default function App(): HTMLElement {
     children: [
       Header(),
       BaseComponent({
+        tag: 'main',
         attributes: {
           id: 'outlet',
         },
