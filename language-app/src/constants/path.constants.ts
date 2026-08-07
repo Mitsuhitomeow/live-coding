@@ -1,1 +1,1 @@
-export const BASE_PATH = '/live-coding/language-app';
+export const BASE_PATH = '';
