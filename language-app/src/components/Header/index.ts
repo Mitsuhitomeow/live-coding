@@ -24,7 +24,7 @@ export default function Header(): HTMLElement {
             const body = document.body;
 
             if (body.style.backgroundColor === 'red') {
-              body.style.backgroundColor = 'white';
+              body.style.backgroundColor = '#1E1B4B';
             } else {
               body.style.backgroundColor = 'red';
             }

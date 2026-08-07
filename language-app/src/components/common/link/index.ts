@@ -5,11 +5,13 @@ import type { LinkProps } from '@/types/link.types';
 export default function Link({
   text,
   path,
+  className,
   isRouterLink = false,
 }: LinkProps): HTMLElement {
   const link = BaseComponent({
     tag: 'a',
     text,
+    className,
     attributes: {
       href: path,
     },

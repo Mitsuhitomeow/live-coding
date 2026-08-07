@@ -10,16 +10,19 @@ export default function Nav(): HTMLElement {
     children: [
       Link({
         text: 'Home',
+        className: styles.headerNavigationLink,
         path: ROUTES.HOME,
         isRouterLink: true,
       }),
       Link({
         text: 'Training',
+        className: styles.headerNavigationLink,
         path: ROUTES.TRAINING,
         isRouterLink: true,
       }),
       Link({
         text: 'Dictionary',
+        className: styles.headerNavigationLink,
         path: ROUTES.DICTIONARY,
         isRouterLink: true,
       }),
