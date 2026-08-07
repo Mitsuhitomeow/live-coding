@@ -1,5 +1,5 @@
 import BaseComponent from '@/components/BaseComponent';
-import styles from '@/components/Footer/footer.module.scss';
+import styles from '@/components/Footer/Footer.module.scss';
 
 export default function Footer(): HTMLElement {
   return BaseComponent({
