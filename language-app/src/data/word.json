@@ -25,5 +25,455 @@
     "pronunciation": "мо́лим",
     "category": "greetings",
     "level": "A1"
+  },
+  {
+    "id": 51,
+    "latin": "prozor",
+    "cyrillic": "прозор",
+    "translation": "окно",
+    "pronunciation": "прозор",
+    "category": "home",
+    "level": "A1"
+  },
+  {
+    "id": 52,
+    "latin": "vrata",
+    "cyrillic": "врата",
+    "translation": "дверь",
+    "pronunciation": "врата",
+    "category": "home",
+    "level": "A1"
+  },
+  {
+    "id": 53,
+    "latin": "sto",
+    "cyrillic": "сто",
+    "translation": "стол",
+    "pronunciation": "сто",
+    "category": "home",
+    "level": "A1"
+  },
+  {
+    "id": 54,
+    "latin": "stolica",
+    "cyrillic": "столица",
+    "translation": "стул",
+    "pronunciation": "столица",
+    "category": "home",
+    "level": "A1"
+  },
+  {
+    "id": 55,
+    "latin": "krevet",
+    "cyrillic": "кревет",
+    "translation": "кровать",
+    "pronunciation": "кревет",
+    "category": "home",
+    "level": "A1"
+  },
+  {
+    "id": 56,
+    "latin": "frižider",
+    "cyrillic": "фрижидер",
+    "translation": "холодильник",
+    "pronunciation": "фрижидер",
+    "category": "home",
+    "level": "A1"
+  },
+  {
+    "id": 57,
+    "latin": "ključ",
+    "cyrillic": "кључ",
+    "translation": "ключ",
+    "pronunciation": "ключ",
+    "category": "home",
+    "level": "A1"
+  },
+  {
+    "id": 58,
+    "latin": "torba",
+    "cyrillic": "торба",
+    "translation": "сумка",
+    "pronunciation": "торба",
+    "category": "objects",
+    "level": "A1"
+  },
+  {
+    "id": 59,
+    "latin": "telefon",
+    "cyrillic": "телефон",
+    "translation": "телефон",
+    "pronunciation": "телефон",
+    "category": "objects",
+    "level": "A1"
+  },
+  {
+    "id": 60,
+    "latin": "novčanik",
+    "cyrillic": "новчаник",
+    "translation": "кошелек",
+    "pronunciation": "новчаник",
+    "category": "objects",
+    "level": "A1"
+  },
+  {
+    "id": 61,
+    "latin": "jabuka",
+    "cyrillic": "јабука",
+    "translation": "яблоко",
+    "pronunciation": "ябука",
+    "category": "food",
+    "level": "A1"
+  },
+  {
+    "id": 62,
+    "latin": "banana",
+    "cyrillic": "банана",
+    "translation": "банан",
+    "pronunciation": "банана",
+    "category": "food",
+    "level": "A1"
+  },
+  {
+    "id": 63,
+    "latin": "hleb",
+    "cyrillic": "хлеб",
+    "translation": "хлеб",
+    "pronunciation": "хлеб",
+    "category": "food",
+    "level": "A1"
+  },
+  {
+    "id": 64,
+    "latin": "mleko",
+    "cyrillic": "млеко",
+    "translation": "молоко",
+    "pronunciation": "млеко",
+    "category": "food",
+    "level": "A1"
+  },
+  {
+    "id": 65,
+    "latin": "voda",
+    "cyrillic": "вода",
+    "translation": "вода",
+    "pronunciation": "вода",
+    "category": "food",
+    "level": "A1"
+  },
+  {
+    "id": 66,
+    "latin": "kafa",
+    "cyrillic": "кафа",
+    "translation": "кофе",
+    "pronunciation": "кафа",
+    "category": "food",
+    "level": "A1"
+  },
+  {
+    "id": 67,
+    "latin": "čaj",
+    "cyrillic": "чај",
+    "translation": "чай",
+    "pronunciation": "чай",
+    "category": "food",
+    "level": "A1"
+  },
+  {
+    "id": 68,
+    "latin": "sir",
+    "cyrillic": "сир",
+    "translation": "сыр",
+    "pronunciation": "сир",
+    "category": "food",
+    "level": "A1"
+  },
+  {
+    "id": 69,
+    "latin": "meso",
+    "cyrillic": "месо",
+    "translation": "мясо",
+    "pronunciation": "месо",
+    "category": "food",
+    "level": "A1"
+  },
+  {
+    "id": 70,
+    "latin": "riba",
+    "cyrillic": "риба",
+    "translation": "рыба",
+    "pronunciation": "риба",
+    "category": "food",
+    "level": "A1"
+  },
+  {
+    "id": 71,
+    "latin": "dobar",
+    "cyrillic": "добар",
+    "translation": "хороший",
+    "pronunciation": "добар",
+    "category": "adjectives",
+    "level": "A1"
+  },
+  {
+    "id": 72,
+    "latin": "loš",
+    "cyrillic": "лош",
+    "translation": "плохой",
+    "pronunciation": "лош",
+    "category": "adjectives",
+    "level": "A1"
+  },
+  {
+    "id": 73,
+    "latin": "veliki",
+    "cyrillic": "велики",
+    "translation": "большой",
+    "pronunciation": "велики",
+    "category": "adjectives",
+    "level": "A1"
+  },
+  {
+    "id": 74,
+    "latin": "mali",
+    "cyrillic": "мали",
+    "translation": "маленький",
+    "pronunciation": "мали",
+    "category": "adjectives",
+    "level": "A1"
+  },
+  {
+    "id": 75,
+    "latin": "nov",
+    "cyrillic": "нов",
+    "translation": "новый",
+    "pronunciation": "нов",
+    "category": "adjectives",
+    "level": "A1"
+  },
+  {
+    "id": 76,
+    "latin": "star",
+    "cyrillic": "стар",
+    "translation": "старый",
+    "pronunciation": "стар",
+    "category": "adjectives",
+    "level": "A1"
+  },
+  {
+    "id": 77,
+    "latin": "lep",
+    "cyrillic": "леп",
+    "translation": "красивый",
+    "pronunciation": "леп",
+    "category": "adjectives",
+    "level": "A1"
+  },
+  {
+    "id": 78,
+    "latin": "hladan",
+    "cyrillic": "хладан",
+    "translation": "холодный",
+    "pronunciation": "хладан",
+    "category": "adjectives",
+    "level": "A1"
+  },
+  {
+    "id": 79,
+    "latin": "topao",
+    "cyrillic": "топао",
+    "translation": "теплый",
+    "pronunciation": "топао",
+    "category": "adjectives",
+    "level": "A1"
+  },
+  {
+    "id": 80,
+    "latin": "brz",
+    "cyrillic": "брз",
+    "translation": "быстрый",
+    "pronunciation": "брз",
+    "category": "adjectives",
+    "level": "A1"
+  },
+  {
+    "id": 81,
+    "latin": "čitati",
+    "cyrillic": "читати",
+    "translation": "читать",
+    "pronunciation": "читати",
+    "category": "verbs",
+    "level": "A1"
+  },
+  {
+    "id": 82,
+    "latin": "pisati",
+    "cyrillic": "писати",
+    "translation": "писать",
+    "pronunciation": "писати",
+    "category": "verbs",
+    "level": "A1"
+  },
+  {
+    "id": 83,
+    "latin": "gledati",
+    "cyrillic": "гледати",
+    "translation": "смотреть",
+    "pronunciation": "гледати",
+    "category": "verbs",
+    "level": "A1"
+  },
+  {
+    "id": 84,
+    "latin": "slušati",
+    "cyrillic": "слушати",
+    "translation": "слушать",
+    "pronunciation": "слушати",
+    "category": "verbs",
+    "level": "A1"
+  },
+  {
+    "id": 85,
+    "latin": "kupiti",
+    "cyrillic": "купити",
+    "translation": "купить",
+    "pronunciation": "купити",
+    "category": "verbs",
+    "level": "A1"
+  },
+  {
+    "id": 86,
+    "latin": "prodati",
+    "cyrillic": "продати",
+    "translation": "продать",
+    "pronunciation": "продати",
+    "category": "verbs",
+    "level": "A1"
+  },
+  {
+    "id": 87,
+    "latin": "čekati",
+    "cyrillic": "чекати",
+    "translation": "ждать",
+    "pronunciation": "чекати",
+    "category": "verbs",
+    "level": "A1"
+  },
+  {
+    "id": 88,
+    "latin": "raditi",
+    "cyrillic": "радити",
+    "translation": "работать",
+    "pronunciation": "радити",
+    "category": "verbs",
+    "level": "A1"
+  },
+  {
+    "id": 89,
+    "latin": "učiti",
+    "cyrillic": "учити",
+    "translation": "учиться",
+    "pronunciation": "учити",
+    "category": "verbs",
+    "level": "A1"
+  },
+  {
+    "id": 90,
+    "latin": "spavati",
+    "cyrillic": "спавати",
+    "translation": "спать",
+    "pronunciation": "спавати",
+    "category": "verbs",
+    "level": "A1"
+  },
+  {
+    "id": 91,
+    "latin": "jutro",
+    "cyrillic": "јутро",
+    "translation": "утро",
+    "pronunciation": "ютро",
+    "category": "time",
+    "level": "A1"
+  },
+  {
+    "id": 92,
+    "latin": "veče",
+    "cyrillic": "вече",
+    "translation": "вечер",
+    "pronunciation": "вече",
+    "category": "time",
+    "level": "A1"
+  },
+  {
+    "id": 93,
+    "latin": "danas",
+    "cyrillic": "данас",
+    "translation": "сегодня",
+    "pronunciation": "данас",
+    "category": "time",
+    "level": "A1"
+  },
+  {
+    "id": 94,
+    "latin": "sutra",
+    "cyrillic": "сутра",
+    "translation": "завтра",
+    "pronunciation": "сутра",
+    "category": "time",
+    "level": "A1"
+  },
+  {
+    "id": 95,
+    "latin": "juče",
+    "cyrillic": "јуче",
+    "translation": "вчера",
+    "pronunciation": "юче",
+    "category": "time",
+    "level": "A1"
+  },
+  {
+    "id": 96,
+    "latin": "ulica",
+    "cyrillic": "улица",
+    "translation": "улица",
+    "pronunciation": "улица",
+    "category": "city",
+    "level": "A1"
+  },
+  {
+    "id": 97,
+    "latin": "grad",
+    "cyrillic": "град",
+    "translation": "город",
+    "pronunciation": "град",
+    "category": "city",
+    "level": "A1"
+  },
+  {
+    "id": 98,
+    "latin": "prodavnica",
+    "cyrillic": "продавница",
+    "translation": "магазин",
+    "pronunciation": "продавница",
+    "category": "city",
+    "level": "A1"
+  },
+  {
+    "id": 99,
+    "latin": "autobus",
+    "cyrillic": "аутобус",
+    "translation": "автобус",
+    "pronunciation": "аутобус",
+    "category": "transport",
+    "level": "A1"
+  },
+  {
+    "id": 100,
+    "latin": "stanica",
+    "cyrillic": "станица",
+    "translation": "остановка",
+    "pronunciation": "станица",
+    "category": "transport",
+    "level": "A1"
   }
 ]
